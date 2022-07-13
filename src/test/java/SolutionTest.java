@@ -12,4 +12,13 @@ class SolutionTest {
   void maxCoinsExamples2() {
     assertEquals(10, sol.maxCoins(new int[]{1,5}));
   }
+
+  @Test
+  void maxCoinsDFSExamples1() {
+    assertEquals(167, sol.maxCoinsDFS(new int[]{3,1,5,8}));
+  }
+  @Test
+  void maxCoinsDFSExamples2() {
+    assertEquals(10, sol.maxCoinsDFS(new int[]{1,5}));
+  }
 }
